@@ -9,7 +9,9 @@ input[type=number] select {
     box-sizing: border-box;
   }
   
-  
+  BODY{
+    background-color: #8fd3df;
+  }
   
   input[type=submit]:hover {
     background-color: #45a049;
