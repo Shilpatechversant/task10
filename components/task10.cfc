@@ -1,4 +1,4 @@
-<cffunction name="displayFunc" access="remote">
+<cffunction name="displayFunc" access="public">
     <cfargument name="key" required="true">
     <cfargument name="value" required="true">
         <cfif NOT StructKeyExists(Session,"myStruct")>
