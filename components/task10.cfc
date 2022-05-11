@@ -15,6 +15,6 @@
                     <cfset Session.myStruct["#arguments.key#"]="#arguments.value#">
                 </cfif>
             </cfif>
-        </cfif>
+        </cfif>    
     <cfdump var=#Session.myStruct#>
 </cffunction>
